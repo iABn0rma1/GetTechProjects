@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>BMI Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <main>
+    <section class="box">
+      <h2 class="h2">BMI CALCULATOR</h2>
+      <div class="input">
+        <form>
+          <label for="name">Name: </label>
+          <input class="inputname" type="text" placeholder="Enter Your Name" id="name">
+          <label for="age">Age: </label>
+          <input type="number" placeholder="Enter Your Age" id="age">
+          <label for="height">Height: </label>
+          <input type="number" placeholder="cm" id="height">
+          <label for="weight">Weight: </label>
+          <input type="number" placeholder="kg" id="weight">
+          <div id="result">
+            <h2>Result :</h2>
+          </div>
+          <div class="button">
+            <button type="button" onclick="bmi()">Calculate <i class="fas fa-play-circle"></i></button>
+            <button type="button" onclick="remove()">Delete <i class="fas fa-trash-alt"></i></button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="notes">
+      <h1>BMI Table</h1>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th>BMI range - kg/m<sup>2</sup></th> 
+              <th>Age</th>
+            </tr>
+          </thead>
+          <tbody id="bmiTableBody">
+            <!-- Table rows will be dynamically generated here -->
+          </tbody>
+        </table>
+        <div class="table-buttons">
+          <button onclick="previousAgeGroup()">Previous</button>
+          <button onclick="nextAgeGroup()">Next</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

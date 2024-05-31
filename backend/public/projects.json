@@ -237,5 +237,14 @@
    "techstack": "HTML, CSS, JavaScript",
    "slide-img-1": "img/Pacman.png",
    "slide-img-2": "img/Pacman.png"
+ },
+  {
+ "courseId": "BMI Calculator",
+   "name": "Body Mass Index Calculator",
+   "image": "img/bmi.png",
+   "downloadLink": "https://drive.google.com/drive/folders/1oPGRIDzPwj7TvQvF1KNgk39S9tjylYFf?usp=sharing",
+   "techstack": "HTML, CSS, JavaScript",
+   "slide-img-1": "img/bmi-1.png",
+   "slide-img-2": "img/bmi-2.png"
  }
 ]

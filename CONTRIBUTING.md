@@ -241,3 +241,9 @@
 📍 Place: Aurangabad, Maharashtra, India.
 👩🏻‍💻 Bio: Student | MERN Stack Developer in Making.
 🚀 GitHub: [Ayesha Quazi](https://github.com/Ayeshaq04)
+
+#### Name: [Aman Barthwal](https://github.com/iABn0rma1)
+
+- Place: Noida, Uttar Pradesh, India
+- Bio: College Student | Software Engineer
+- GitHub: [Aman Barthwal](https://github.com/iABn0rma1)
